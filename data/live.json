@@ -1,9 +1,9 @@
 {
- "ts": 1794183782999,
+ "ts": 1794183813122,
  "pollSeconds": 15,
  "wallets": 15,
  "activeWallets": 10,
- "equityTracked": 107780.63,
+ "equityTracked": 107774.1,
  "signals": [
   {
    "coin": "HYPE",
@@ -14,20 +14,20 @@
    "holders": 4,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 64408.74,
-   "shortNotional": 16191.81,
-   "grossNotional": 80600.54,
-   "netNotional": 48216.93,
+   "longNotional": 64575.75,
+   "shortNotional": 16239.78,
+   "grossNotional": 80815.53,
+   "netNotional": 48335.98,
    "conviction": 81.8,
    "consensus": true,
-   "markPx": 74.5935,
+   "markPx": 74.793,
    "longs": [
     {
      "address": "0x0cdf0ab9ead733ecf321d09432b5208adae2902f",
      "name": null,
-     "notional": 32407.0518,
+     "notional": 32489.16096,
      "szi": 434.44,
-     "upnl": -2622.27984,
+     "upnl": -2540.17068,
      "lev": 6,
      "winRate": null,
      "qualified": null
@@ -35,9 +35,9 @@
     {
      "address": "0xd246c4a039508379cd70ce624cdb7c8b1c991f37",
      "name": null,
-     "notional": 22378.8,
+     "notional": 22435.2,
      "szi": 300.0,
-     "upnl": -2045.615434,
+     "upnl": -1989.215434,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -45,9 +45,9 @@
     {
      "address": "0x91219d5fc4540bce994036217ade77945da5d6f6",
      "name": null,
-     "notional": 9622.884,
+     "notional": 9651.393,
      "szi": 129.0,
-     "upnl": -374.12267,
+     "upnl": -345.61367,
      "lev": 5,
      "winRate": null,
      "qualified": null
@@ -57,9 +57,9 @@
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 16191.80776,
+     "notional": 16239.77802,
      "szi": -217.06,
-     "upnl": 4066.34397,
+     "upnl": 4018.37371,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -76,20 +76,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 19778.73,
-   "grossNotional": 19778.73,
-   "netNotional": -19778.73,
-   "conviction": 73.3,
+   "shortNotional": 19817.25,
+   "grossNotional": 19817.25,
+   "netNotional": -19817.25,
+   "conviction": 73.4,
    "consensus": true,
-   "markPx": 0.005031,
+   "markPx": 0.005037,
    "longs": [],
    "shorts": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 14771.966859,
+     "notional": 14801.328749,
      "szi": -2936189.0,
-     "upnl": 132.150273,
+     "upnl": 102.788383,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -97,9 +97,9 @@
     {
      "address": "0x16aa234e82d7b51b8757110cbeeac6a65351785c",
      "name": null,
-     "notional": 3003.582465,
+     "notional": 3009.552615,
      "szi": -597015.0,
-     "upnl": -4.179105,
+     "upnl": -10.149255,
      "lev": 10,
      "winRate": 0.9366963402571711,
      "qualified": null
@@ -107,9 +107,9 @@
     {
      "address": "0xccf595171e2e56655fb4d386b7424da16be69d42",
      "name": null,
-     "notional": 2003.183208,
+     "notional": 2006.368552,
      "szi": -398168.0,
-     "upnl": -3.583512,
+     "upnl": -6.768856,
      "lev": 3,
      "winRate": null,
      "qualified": null
@@ -125,20 +125,20 @@
    "holders": 4,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 37667.24,
-   "shortNotional": 63525.38,
-   "grossNotional": 101192.62,
-   "netNotional": -25858.13,
+   "longNotional": 37725.01,
+   "shortNotional": 63615.31,
+   "grossNotional": 101340.32,
+   "netNotional": -25890.29,
    "conviction": 70.5,
    "consensus": true,
-   "markPx": 74915.5,
+   "markPx": 75002.5,
    "longs": [
     {
      "address": "0x91219d5fc4540bce994036217ade77945da5d6f6",
      "name": null,
-     "notional": 37456.0,
+     "notional": 37513.5,
      "szi": 0.5,
-     "upnl": -247.4,
+     "upnl": -189.9,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -146,9 +146,9 @@
     {
      "address": "0x4ecf18b838e9af3451c3e0f6b45becbe95a9794d",
      "name": null,
-     "notional": 211.24338,
+     "notional": 211.51128,
      "szi": 0.00282,
-     "upnl": -27.08328,
+     "upnl": -26.81538,
      "lev": 3,
      "winRate": null,
      "qualified": null
@@ -158,9 +158,9 @@
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 38804.416,
+     "notional": 38863.986,
      "szi": -0.518,
-     "upnl": 4707.422215,
+     "upnl": 4647.852215,
      "lev": 40,
      "winRate": null,
      "qualified": null
@@ -168,9 +168,9 @@
     {
      "address": "0x97d2767db42135e1e2a5fd7dd3e11646ef4d2b28",
      "name": null,
-     "notional": 24720.96,
+     "notional": 24751.32,
      "szi": -0.33,
-     "upnl": 2488.187467,
+     "upnl": 2457.827467,
      "lev": 12,
      "winRate": null,
      "qualified": null
@@ -186,20 +186,20 @@
    "holders": 4,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 49261.08,
-   "shortNotional": 39494.64,
-   "grossNotional": 88755.72,
-   "netNotional": 9766.44,
+   "longNotional": 49425.9,
+   "shortNotional": 39620.18,
+   "grossNotional": 89046.08,
+   "netNotional": 9805.72,
    "conviction": 70.5,
    "consensus": true,
-   "markPx": 1225.35,
+   "markPx": 1229.05,
    "longs": [
     {
      "address": "0x91219d5fc4540bce994036217ade77945da5d6f6",
      "name": null,
-     "notional": 27816.58,
+     "notional": 27909.65,
      "szi": 22.7,
-     "upnl": -2134.94,
+     "upnl": -2041.87,
      "lev": 5,
      "winRate": null,
      "qualified": null
@@ -207,9 +207,9 @@
     {
      "address": "0x3c1fd5a166e47f9d8b001f09fd95776b0bf6c0f7",
      "name": null,
-     "notional": 21444.5,
+     "notional": 21516.25,
      "szi": 17.5,
-     "upnl": -974.032051,
+     "upnl": -902.282051,
      "lev": 7,
      "winRate": null,
      "qualified": null
@@ -219,9 +219,9 @@
     {
      "address": "0x97d2767db42135e1e2a5fd7dd3e11646ef4d2b28",
      "name": null,
-     "notional": 26958.8,
+     "notional": 27042.4,
      "szi": -22.0,
-     "upnl": 789.705839,
+     "upnl": 706.105839,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -229,9 +229,9 @@
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 12535.842,
+     "notional": 12577.785,
      "szi": -10.23,
-     "upnl": 889.426865,
+     "upnl": 847.483865,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -247,20 +247,20 @@
    "holders": 3,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 10682.0,
-   "shortNotional": 37013.13,
-   "grossNotional": 47695.13,
-   "netNotional": -26331.13,
+   "longNotional": 10699.0,
+   "shortNotional": 37067.24,
+   "grossNotional": 47766.24,
+   "netNotional": -26368.24,
    "conviction": 68.7,
    "consensus": true,
-   "markPx": 2136.35,
+   "markPx": 2139.05,
    "longs": [
     {
      "address": "0x91219d5fc4540bce994036217ade77945da5d6f6",
      "name": null,
-     "notional": 10682.0,
+     "notional": 10699.0,
      "szi": 5.0,
-     "upnl": -506.0,
+     "upnl": -489.0,
      "lev": 5,
      "winRate": null,
      "qualified": null
@@ -270,9 +270,9 @@
     {
      "address": "0x97d2767db42135e1e2a5fd7dd3e11646ef4d2b28",
      "name": null,
-     "notional": 25636.8,
+     "notional": 25672.8,
      "szi": -12.0,
-     "upnl": 4237.192243,
+     "upnl": 4201.192243,
      "lev": 15,
      "winRate": null,
      "qualified": null
@@ -280,9 +280,9 @@
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 11376.33,
+     "notional": 11394.435,
      "szi": -5.325,
-     "upnl": 2317.799291,
+     "upnl": 2299.694291,
      "lev": 25,
      "winRate": null,
      "qualified": null
@@ -299,20 +299,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 5030.29,
-   "grossNotional": 5030.29,
-   "netNotional": -5030.29,
+   "shortNotional": 5027.26,
+   "grossNotional": 5027.26,
+   "netNotional": -5027.26,
    "conviction": 60.9,
    "consensus": true,
-   "markPx": 0.001661,
+   "markPx": 0.001658,
    "longs": [],
    "shorts": [
     {
      "address": "0x16aa234e82d7b51b8757110cbeeac6a65351785c",
      "name": null,
-     "notional": 3018.171541,
+     "notional": 3016.35446,
      "szi": -1817081.0,
-     "upnl": -19.987891,
+     "upnl": -18.17081,
      "lev": 3,
      "winRate": 0.9366963402571711,
      "qualified": null
@@ -320,9 +320,9 @@
     {
      "address": "0xccf595171e2e56655fb4d386b7424da16be69d42",
      "name": null,
-     "notional": 2012.113807,
+     "notional": 2010.90242,
      "szi": -1211387.0,
-     "upnl": -17.69053,
+     "upnl": -16.479143,
      "lev": 3,
      "winRate": null,
      "qualified": null
@@ -339,20 +339,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 5053.66,
-   "grossNotional": 5053.66,
-   "netNotional": -5053.66,
+   "shortNotional": 5048.31,
+   "grossNotional": 5048.31,
+   "netNotional": -5048.31,
    "conviction": 60.9,
    "consensus": true,
-   "markPx": 0.031784,
+   "markPx": 0.031751,
    "longs": [],
    "shorts": [
     {
      "address": "0x16aa234e82d7b51b8757110cbeeac6a65351785c",
      "name": null,
-     "notional": 3032.19378,
+     "notional": 3028.569264,
      "szi": -95382.0,
-     "upnl": -29.103195,
+     "upnl": -25.478679,
      "lev": 3,
      "winRate": 0.9366963402571711,
      "qualified": null
@@ -360,9 +360,9 @@
     {
      "address": "0xccf595171e2e56655fb4d386b7424da16be69d42",
      "name": null,
-     "notional": 2021.46252,
+     "notional": 2019.745644,
      "szi": -63588.0,
-     "upnl": -23.274021,
+     "upnl": -21.557145,
      "lev": 3,
      "winRate": null,
      "qualified": null
@@ -378,20 +378,20 @@
    "holders": 2,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 4459.67,
-   "shortNotional": 7195.92,
-   "grossNotional": 11655.59,
-   "netNotional": -2736.25,
+   "longNotional": 4463.46,
+   "shortNotional": 7202.64,
+   "grossNotional": 11666.1,
+   "netNotional": -2739.18,
    "conviction": 40.8,
    "consensus": true,
-   "markPx": 599.205,
+   "markPx": 600.175,
    "longs": [
     {
      "address": "0xd246c4a039508379cd70ce624cdb7c8b1c991f37",
      "name": null,
-     "notional": 4459.67142,
+     "notional": 4463.46429,
      "szi": 7.437,
-     "upnl": 14.43015,
+     "upnl": 18.22302,
      "lev": 5,
      "winRate": null,
      "qualified": null
@@ -401,9 +401,9 @@
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 7195.92,
+     "notional": 7202.64,
      "szi": -12.0,
-     "upnl": 174.26664,
+     "upnl": 167.54664,
      "lev": 5,
      "winRate": null,
      "qualified": null
@@ -420,20 +420,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 11276.27,
-   "grossNotional": 11276.27,
-   "netNotional": -11276.27,
+   "shortNotional": 11270.68,
+   "grossNotional": 11270.68,
+   "netNotional": -11270.68,
    "conviction": 56.2,
    "consensus": false,
-   "markPx": 0.046419,
+   "markPx": 0.046396,
    "longs": [],
    "shorts": [
     {
      "address": "0xd246c4a039508379cd70ce624cdb7c8b1c991f37",
      "name": null,
-     "notional": 11276.26838,
+     "notional": 11270.682462,
      "szi": -242866.0,
-     "upnl": -161.556732,
+     "upnl": -155.970814,
      "lev": 5,
      "winRate": null,
      "qualified": null
@@ -450,20 +450,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 9428.4,
-   "grossNotional": 9428.4,
-   "netNotional": -9428.4,
+   "shortNotional": 9442.17,
+   "grossNotional": 9442.17,
+   "netNotional": -9442.17,
    "conviction": 55.5,
    "consensus": false,
-   "markPx": 0.006161,
+   "markPx": 0.006167,
    "longs": [],
    "shorts": [
     {
      "address": "0xd246c4a039508379cd70ce624cdb7c8b1c991f37",
      "name": null,
-     "notional": 9428.39744,
+     "notional": 9442.172696,
      "szi": -1530584.0,
-     "upnl": 1776.470975,
+     "upnl": 1762.695719,
      "lev": 5,
      "winRate": null,
      "qualified": null
@@ -480,20 +480,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 8568.01,
-   "grossNotional": 8568.01,
-   "netNotional": -8568.01,
+   "shortNotional": 8587.73,
+   "grossNotional": 8587.73,
+   "netNotional": -8587.73,
    "conviction": 55.2,
    "consensus": false,
-   "markPx": 86.8795,
+   "markPx": 87.0435,
    "longs": [],
    "shorts": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 8568.00698,
+     "notional": 8587.73098,
      "szi": -98.62,
-     "upnl": 2735.821887,
+     "upnl": 2716.097887,
      "lev": 20,
      "winRate": null,
      "qualified": null
@@ -510,20 +510,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 6588.18,
-   "grossNotional": 6588.18,
-   "netNotional": -6588.18,
-   "conviction": 54.4,
+   "shortNotional": 6606.48,
+   "grossNotional": 6606.48,
+   "netNotional": -6606.48,
+   "conviction": 54.5,
    "consensus": false,
-   "markPx": 3.60045,
+   "markPx": 3.60855,
    "longs": [],
    "shorts": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 6588.183,
+     "notional": 6606.483,
      "szi": -1830.0,
-     "upnl": 3053.43671,
+     "upnl": 3035.13671,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -540,20 +540,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 4906.44,
-   "grossNotional": 4906.44,
-   "netNotional": -4906.44,
+   "shortNotional": 4917.44,
+   "grossNotional": 4917.44,
+   "netNotional": -4917.44,
    "conviction": 53.8,
    "consensus": false,
-   "markPx": 1.11505,
+   "markPx": 1.11705,
    "longs": [],
    "shorts": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 4906.44,
+     "notional": 4917.44,
      "szi": -4400.0,
-     "upnl": 1224.98332,
+     "upnl": 1213.98332,
      "lev": 20,
      "winRate": null,
      "qualified": null
@@ -570,20 +570,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 4428.81,
-   "grossNotional": 4428.81,
-   "netNotional": -4428.81,
+   "shortNotional": 4441.02,
+   "grossNotional": 4441.02,
+   "netNotional": -4441.02,
    "conviction": 53.6,
    "consensus": false,
-   "markPx": 126.905,
+   "markPx": 127.18,
    "longs": [],
    "shorts": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 4428.81,
+     "notional": 4441.025,
      "szi": -34.9,
-     "upnl": 1052.668472,
+     "upnl": 1040.453472,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -599,20 +599,20 @@
    "holders": 1,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 3585.63,
+   "longNotional": 3592.74,
    "shortNotional": 0.0,
-   "grossNotional": 3585.63,
-   "netNotional": 3585.63,
+   "grossNotional": 3592.74,
+   "netNotional": 3592.74,
    "conviction": 53.3,
    "consensus": false,
-   "markPx": 0.05651,
+   "markPx": 0.056594,
    "longs": [
     {
      "address": "0xb4afc3217269e3c06908e3f30eb019a28f6e444e",
      "name": null,
-     "notional": 3585.631632,
+     "notional": 3592.739936,
      "szi": 63467.0,
-     "upnl": -63.720868,
+     "upnl": -56.612564,
      "lev": 3,
      "winRate": null,
      "qualified": null
@@ -630,20 +630,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 2866.84,
-   "grossNotional": 2866.84,
-   "netNotional": -2866.84,
+   "shortNotional": 2873.94,
+   "grossNotional": 2873.94,
+   "netNotional": -2873.94,
    "conviction": 53.1,
    "consensus": false,
-   "markPx": 20.1865,
+   "markPx": 20.23,
    "longs": [],
    "shorts": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 2866.838,
+     "notional": 2873.938,
      "szi": -142.0,
-     "upnl": 709.118063,
+     "upnl": 702.018063,
      "lev": 3,
      "winRate": null,
      "qualified": null
@@ -660,20 +660,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 2402.75,
-   "grossNotional": 2402.75,
-   "netNotional": -2402.75,
+   "shortNotional": 2405.2,
+   "grossNotional": 2405.2,
+   "netNotional": -2405.2,
    "conviction": 52.9,
    "consensus": false,
-   "markPx": 686.48,
+   "markPx": 686.995,
    "longs": [],
    "shorts": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 2402.75,
+     "notional": 2405.2,
      "szi": -3.5,
-     "upnl": 156.6615,
+     "upnl": 154.2115,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -689,20 +689,20 @@
    "holders": 1,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 2292.7,
+   "longNotional": 2299.59,
    "shortNotional": 0.0,
-   "grossNotional": 2292.7,
-   "netNotional": 2292.7,
+   "grossNotional": 2299.59,
+   "netNotional": 2299.59,
    "conviction": 52.9,
    "consensus": false,
-   "markPx": 0.149885,
+   "markPx": 0.150195,
    "longs": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 2292.705,
+     "notional": 2299.59,
      "szi": 15300.0,
-     "upnl": -309.63976,
+     "upnl": -302.75476,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -719,20 +719,20 @@
    "holders": 1,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 2426.97,
+   "longNotional": 2432.24,
    "shortNotional": 0.0,
-   "grossNotional": 2426.97,
-   "netNotional": 2426.97,
+   "grossNotional": 2432.24,
+   "netNotional": 2432.24,
    "conviction": 52.9,
    "consensus": false,
-   "markPx": 0.051092,
+   "markPx": 0.051196,
    "longs": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 2426.965,
+     "notional": 2432.2375,
      "szi": 47500.0,
-     "upnl": -555.509761,
+     "upnl": -550.237261,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -750,20 +750,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 1914.99,
-   "grossNotional": 1914.99,
-   "netNotional": -1914.99,
+   "shortNotional": 1919.84,
+   "grossNotional": 1919.84,
+   "netNotional": -1919.84,
    "conviction": 52.7,
    "consensus": false,
-   "markPx": 10.4535,
+   "markPx": 10.4775,
    "longs": [],
    "shorts": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 1914.9896,
+     "notional": 1919.8444,
      "szi": -183.2,
-     "upnl": 453.503751,
+     "upnl": 448.648951,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -780,20 +780,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 1743.44,
-   "grossNotional": 1743.44,
-   "netNotional": -1743.44,
+   "shortNotional": 1747.2,
+   "grossNotional": 1747.2,
+   "netNotional": -1747.2,
    "conviction": 52.6,
    "consensus": false,
-   "markPx": 217.95,
+   "markPx": 218.35,
    "longs": [],
    "shorts": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 1743.44,
+     "notional": 1747.2,
      "szi": -8.0,
-     "upnl": 722.814998,
+     "upnl": 719.054998,
      "lev": 5,
      "winRate": null,
      "qualified": null
@@ -809,20 +809,20 @@
    "holders": 1,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 1234.41,
+   "longNotional": 1236.61,
    "shortNotional": 0.0,
-   "grossNotional": 1234.41,
-   "netNotional": 1234.41,
+   "grossNotional": 1236.61,
+   "netNotional": 1236.61,
    "conviction": 52.5,
    "consensus": false,
-   "markPx": 0.35263,
+   "markPx": 0.35319,
    "longs": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 1234.415,
+     "notional": 1236.613,
      "szi": 3500.0,
-     "upnl": -91.839428,
+     "upnl": -89.641428,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -840,20 +840,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 1026.72,
-   "grossNotional": 1026.72,
-   "netNotional": -1026.72,
+   "shortNotional": 1027.56,
+   "grossNotional": 1027.56,
+   "netNotional": -1027.56,
    "conviction": 52.4,
    "consensus": false,
-   "markPx": 0.2567,
+   "markPx": 0.25677,
    "longs": [],
    "shorts": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 1026.72,
+     "notional": 1027.56,
      "szi": -4000.0,
-     "upnl": 481.122938,
+     "upnl": 480.282938,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -869,20 +869,20 @@
    "holders": 1,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 1026.41,
+   "longNotional": 1029.36,
    "shortNotional": 0.0,
-   "grossNotional": 1026.41,
-   "netNotional": 1026.41,
+   "grossNotional": 1029.36,
+   "netNotional": 1029.36,
    "conviction": 52.4,
    "consensus": false,
-   "markPx": 6.8451,
+   "markPx": 6.8609,
    "longs": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 1026.408,
+     "notional": 1029.36,
      "szi": 150.0,
-     "upnl": -20.94391,
+     "upnl": -17.99191,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -900,20 +900,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 987.7,
-   "grossNotional": 987.7,
-   "netNotional": -987.7,
+   "shortNotional": 989.01,
+   "grossNotional": 989.01,
+   "netNotional": -989.01,
    "conviction": 52.4,
    "consensus": false,
-   "markPx": 0.41491,
+   "markPx": 0.41537,
    "longs": [],
    "shorts": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 987.7,
+     "notional": 989.009,
      "szi": -2380.0,
-     "upnl": 493.35193,
+     "upnl": 492.04293,
      "lev": 5,
      "winRate": null,
      "qualified": null
@@ -930,20 +930,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 991.87,
-   "grossNotional": 991.87,
-   "netNotional": -991.87,
+   "shortNotional": 994.32,
+   "grossNotional": 994.32,
+   "netNotional": -994.32,
    "conviction": 52.4,
    "consensus": false,
-   "markPx": 0.47821,
+   "markPx": 0.47893,
    "longs": [],
    "shorts": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 991.87436,
+     "notional": 994.322152,
      "szi": -2074.4,
-     "upnl": 478.410422,
+     "upnl": 475.96263,
      "lev": 3,
      "winRate": null,
      "qualified": null
@@ -959,20 +959,20 @@
    "holders": 1,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 1121.92,
+   "longNotional": 1123.45,
    "shortNotional": 0.0,
-   "grossNotional": 1121.92,
-   "netNotional": 1121.92,
+   "grossNotional": 1123.45,
+   "netNotional": 1123.45,
    "conviction": 52.4,
    "consensus": false,
-   "markPx": 0.06234,
+   "markPx": 0.062399,
    "longs": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 1121.922,
+     "notional": 1123.452,
      "szi": 18000.0,
-     "upnl": -116.012069,
+     "upnl": -114.482069,
      "lev": 3,
      "winRate": null,
      "qualified": null
@@ -989,20 +989,20 @@
    "holders": 1,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 676.8,
+   "longNotional": 677.25,
    "shortNotional": 0.0,
-   "grossNotional": 676.8,
-   "netNotional": 676.8,
+   "grossNotional": 677.25,
+   "netNotional": 677.25,
    "conviction": 52.3,
    "consensus": false,
-   "markPx": 0.13541,
+   "markPx": 0.13527,
    "longs": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 676.8,
+     "notional": 677.25,
      "szi": 5000.0,
-     "upnl": -109.96,
+     "upnl": -109.51,
      "lev": 3,
      "winRate": null,
      "qualified": null
@@ -1019,20 +1019,20 @@
    "holders": 1,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 749.56,
+   "longNotional": 751.14,
    "shortNotional": 0.0,
-   "grossNotional": 749.56,
-   "netNotional": 749.56,
+   "grossNotional": 751.14,
+   "netNotional": 751.14,
    "conviction": 52.3,
    "consensus": false,
-   "markPx": 3.04665,
+   "markPx": 3.0518,
    "longs": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 749.562,
+     "notional": 751.1364,
      "szi": 246.0,
-     "upnl": 85.970744,
+     "upnl": 87.545144,
      "lev": 5,
      "winRate": null,
      "qualified": null
@@ -1049,20 +1049,20 @@
    "holders": 1,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 626.44,
+   "longNotional": 627.8,
    "shortNotional": 0.0,
-   "grossNotional": 626.44,
-   "netNotional": 626.44,
+   "grossNotional": 627.8,
+   "netNotional": 627.8,
    "conviction": 52.2,
    "consensus": false,
-   "markPx": 1.5661,
+   "markPx": 1.56885,
    "longs": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 626.44,
+     "notional": 627.8,
      "szi": 400.0,
-     "upnl": -143.063928,
+     "upnl": -141.703928,
      "lev": 5,
      "winRate": null,
      "qualified": null
@@ -1080,20 +1080,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 547.82,
-   "grossNotional": 547.82,
-   "netNotional": -547.82,
+   "shortNotional": 548.34,
+   "grossNotional": 548.34,
+   "netNotional": -548.34,
    "conviction": 52.2,
    "consensus": false,
-   "markPx": 0.093435,
+   "markPx": 0.093521,
    "longs": [],
    "shorts": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 547.822359,
+     "notional": 548.337951,
      "szi": -5859.0,
-     "upnl": 199.73481,
+     "upnl": 199.219218,
      "lev": 3,
      "winRate": null,
      "qualified": null
@@ -1109,20 +1109,20 @@
    "holders": 1,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 158.55,
+   "longNotional": 158.85,
    "shortNotional": 0.0,
-   "grossNotional": 158.55,
-   "netNotional": 158.55,
+   "grossNotional": 158.85,
+   "netNotional": 158.85,
    "conviction": 52.1,
    "consensus": false,
-   "markPx": 0.01057,
+   "markPx": 0.01059,
    "longs": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 158.55,
+     "notional": 158.85,
      "szi": 15000.0,
-     "upnl": -21.45,
+     "upnl": -21.15,
      "lev": 5,
      "winRate": null,
      "qualified": null
@@ -1139,20 +1139,20 @@
    "holders": 1,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 248.54,
+   "longNotional": 249.74,
    "shortNotional": 0.0,
-   "grossNotional": 248.54,
-   "netNotional": 248.54,
+   "grossNotional": 249.74,
+   "netNotional": 249.74,
    "conviction": 52.1,
    "consensus": false,
-   "markPx": 0.072493,
+   "markPx": 0.072812,
    "longs": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 248.5378,
+     "notional": 249.74173,
      "szi": 3430.0,
-     "upnl": -111.1894,
+     "upnl": -109.98547,
      "lev": 3,
      "winRate": null,
      "qualified": null
@@ -1170,20 +1170,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 58.75,
-   "grossNotional": 58.75,
-   "netNotional": -58.75,
+   "shortNotional": 58.92,
+   "grossNotional": 58.92,
+   "netNotional": -58.92,
    "conviction": 52.0,
    "consensus": false,
-   "markPx": 0.31369,
+   "markPx": 0.31451,
    "longs": [],
    "shorts": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 58.752264,
+     "notional": 58.922707,
      "szi": -187.3,
-     "upnl": 42.912964,
+     "upnl": 42.742521,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -1200,20 +1200,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 49.42,
-   "grossNotional": 49.42,
-   "netNotional": -49.42,
+   "shortNotional": 49.53,
+   "grossNotional": 49.53,
+   "netNotional": -49.53,
    "conviction": 52.0,
    "consensus": false,
-   "markPx": 0.10473,
+   "markPx": 0.10489,
    "longs": [],
    "shorts": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 49.4184,
+     "notional": 49.52696,
      "szi": -472.0,
-     "upnl": 64.243111,
+     "upnl": 64.134551,
      "lev": 5,
      "winRate": null,
      "qualified": null
@@ -1230,20 +1230,20 @@
    "activeTracked": 10,
    "totalTracked": 15,
    "longNotional": 0.0,
-   "shortNotional": 88.65,
-   "grossNotional": 88.65,
-   "netNotional": -88.65,
+   "shortNotional": 89.1,
+   "grossNotional": 89.1,
+   "netNotional": -89.1,
    "conviction": 52.0,
    "consensus": false,
-   "markPx": 0.003543,
+   "markPx": 0.003561,
    "longs": [],
    "shorts": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 88.65,
+     "notional": 89.1,
      "szi": -25000.0,
-     "upnl": 28.569999,
+     "upnl": 28.119999,
      "lev": 10,
      "winRate": null,
      "qualified": null
@@ -1259,20 +1259,20 @@
    "holders": 1,
    "activeTracked": 10,
    "totalTracked": 15,
-   "longNotional": 86.88,
+   "longNotional": 86.97,
    "shortNotional": 0.0,
-   "grossNotional": 86.88,
-   "netNotional": 86.88,
+   "grossNotional": 86.97,
+   "netNotional": 86.97,
    "conviction": 52.0,
    "consensus": false,
-   "markPx": 0.579255,
+   "markPx": 0.57961,
    "longs": [
     {
      "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
      "name": null,
-     "notional": 86.88,
+     "notional": 86.9655,
      "szi": 150.0,
-     "upnl": -0.6195,
+     "upnl": -0.534,
      "lev": 3,
      "winRate": null,
      "qualified": null
@@ -1307,15 +1307,15 @@
    "address": "0x0cdf0ab9ead733ecf321d09432b5208adae2902f",
    "name": null,
    "tier": "5-10k",
-   "accountValue": 8179.7,
+   "accountValue": 8261.81,
    "positions": [
     {
      "coin": "HYPE",
      "szi": 434.44,
      "side": "long",
      "entryPx": 80.631,
-     "positionValue": 32407.0518,
-     "unrealizedPnl": -2622.27984,
+     "positionValue": 32489.16096,
+     "unrealizedPnl": -2540.17068,
      "leverage": 6
     }
    ]
@@ -1324,15 +1324,15 @@
    "address": "0x4ecf18b838e9af3451c3e0f6b45becbe95a9794d",
    "name": null,
    "tier": "5-10k",
-   "accountValue": 51.13,
+   "accountValue": 51.4,
    "positions": [
     {
      "coin": "BTC",
      "szi": 0.00282,
      "side": "long",
      "entryPx": 84513.0,
-     "positionValue": 211.24338,
-     "unrealizedPnl": -27.08328,
+     "positionValue": 211.51128,
+     "unrealizedPnl": -26.81538,
      "leverage": 3
     }
    ]
@@ -1341,15 +1341,15 @@
    "address": "0xd246c4a039508379cd70ce624cdb7c8b1c991f37",
    "name": null,
    "tier": "10-30k",
-   "accountValue": 6933.11,
+   "accountValue": 6985.11,
    "positions": [
     {
      "coin": "HYPE",
      "szi": 300.0,
      "side": "long",
      "entryPx": 81.4147,
-     "positionValue": 22378.8,
-     "unrealizedPnl": -2045.615434,
+     "positionValue": 22435.2,
+     "unrealizedPnl": -1989.215434,
      "leverage": 10
     },
     {
@@ -1357,8 +1357,8 @@
      "szi": -1530584.0,
      "side": "short",
      "entryPx": 0.00732,
-     "positionValue": 9428.39744,
-     "unrealizedPnl": 1776.470975,
+     "positionValue": 9442.172696,
+     "unrealizedPnl": 1762.695719,
      "leverage": 5
     },
     {
@@ -1366,8 +1366,8 @@
      "szi": -242866.0,
      "side": "short",
      "entryPx": 0.045764,
-     "positionValue": 11276.26838,
-     "unrealizedPnl": -161.556732,
+     "positionValue": 11270.682462,
+     "unrealizedPnl": -155.970814,
      "leverage": 5
     },
     {
@@ -1375,8 +1375,8 @@
      "szi": 7.437,
      "side": "long",
      "entryPx": 597.719,
-     "positionValue": 4459.67142,
-     "unrealizedPnl": 14.43015,
+     "positionValue": 4463.46429,
+     "unrealizedPnl": 18.22302,
      "leverage": 5
     }
    ]
@@ -1399,15 +1399,15 @@
    "address": "0xccf595171e2e56655fb4d386b7424da16be69d42",
    "name": null,
    "tier": "30-50k",
-   "accountValue": 1972.22,
+   "accountValue": 1971.97,
    "positions": [
     {
      "coin": "kPEPE",
      "szi": -398168.0,
      "side": "short",
      "entryPx": 0.005022,
-     "positionValue": 2003.183208,
-     "unrealizedPnl": -3.583512,
+     "positionValue": 2006.368552,
+     "unrealizedPnl": -6.768856,
      "leverage": 3
     },
     {
@@ -1415,8 +1415,8 @@
      "szi": -1211387.0,
      "side": "short",
      "entryPx": 0.001646,
-     "positionValue": 2012.113807,
-     "unrealizedPnl": -17.69053,
+     "positionValue": 2010.90242,
+     "unrealizedPnl": -16.479143,
      "leverage": 3
     },
     {
@@ -1424,8 +1424,8 @@
      "szi": -63588.0,
      "side": "short",
      "entryPx": 0.031423,
-     "positionValue": 2021.46252,
-     "unrealizedPnl": -23.274021,
+     "positionValue": 2019.745644,
+     "unrealizedPnl": -21.557145,
      "leverage": 3
     }
    ]
@@ -1434,15 +1434,15 @@
    "address": "0x97d2767db42135e1e2a5fd7dd3e11646ef4d2b28",
    "name": null,
    "tier": "30-50k",
-   "accountValue": 6993.02,
+   "accountValue": 6843.06,
    "positions": [
     {
      "coin": "BTC",
      "szi": -0.33,
      "side": "short",
      "entryPx": 82451.9,
-     "positionValue": 24720.96,
-     "unrealizedPnl": 2488.187467,
+     "positionValue": 24751.32,
+     "unrealizedPnl": 2457.827467,
      "leverage": 12
     },
     {
@@ -1450,8 +1450,8 @@
      "szi": -12.0,
      "side": "short",
      "entryPx": 2489.49,
-     "positionValue": 25636.8,
-     "unrealizedPnl": 4237.192243,
+     "positionValue": 25672.8,
+     "unrealizedPnl": 4201.192243,
      "leverage": 15
     },
     {
@@ -1459,8 +1459,8 @@
      "szi": -22.0,
      "side": "short",
      "entryPx": 1261.2957,
-     "positionValue": 26958.8,
-     "unrealizedPnl": 789.705839,
+     "positionValue": 27042.4,
+     "unrealizedPnl": 706.105839,
      "leverage": 10
     }
    ]
@@ -1469,15 +1469,15 @@
    "address": "0xb4afc3217269e3c06908e3f30eb019a28f6e444e",
    "name": null,
    "tier": "30-50k",
-   "accountValue": 3981.57,
+   "accountValue": 3988.68,
    "positions": [
     {
      "coin": "NIL",
      "szi": 63467.0,
      "side": "long",
      "entryPx": 0.0575,
-     "positionValue": 3585.631632,
-     "unrealizedPnl": -63.720868,
+     "positionValue": 3592.739936,
+     "unrealizedPnl": -56.612564,
      "leverage": 3
     }
    ]
@@ -1486,15 +1486,15 @@
    "address": "0x91219d5fc4540bce994036217ade77945da5d6f6",
    "name": null,
    "tier": "50-100k",
-   "accountValue": 14023.51,
+   "accountValue": 14219.58,
    "positions": [
     {
      "coin": "BTC",
      "szi": 0.5,
      "side": "long",
      "entryPx": 75406.8,
-     "positionValue": 37456.0,
-     "unrealizedPnl": -247.4,
+     "positionValue": 37513.5,
+     "unrealizedPnl": -189.9,
      "leverage": 10
     },
     {
@@ -1502,8 +1502,8 @@
      "szi": 5.0,
      "side": "long",
      "entryPx": 2237.6,
-     "positionValue": 10682.0,
-     "unrealizedPnl": -506.0,
+     "positionValue": 10699.0,
+     "unrealizedPnl": -489.0,
      "leverage": 5
     },
     {
@@ -1511,8 +1511,8 @@
      "szi": 129.0,
      "side": "long",
      "entryPx": 77.4961,
-     "positionValue": 9622.884,
-     "unrealizedPnl": -374.12267,
+     "positionValue": 9651.393,
+     "unrealizedPnl": -345.61367,
      "leverage": 5
     },
     {
@@ -1520,8 +1520,8 @@
      "szi": 22.7,
      "side": "long",
      "entryPx": 1319.4502,
-     "positionValue": 27816.58,
-     "unrealizedPnl": -2134.94,
+     "positionValue": 27909.65,
+     "unrealizedPnl": -2041.87,
      "leverage": 5
     }
    ]
@@ -1530,15 +1530,15 @@
    "address": "0x3c1fd5a166e47f9d8b001f09fd95776b0bf6c0f7",
    "name": null,
    "tier": "50-100k",
-   "accountValue": 15469.18,
+   "accountValue": 15540.93,
    "positions": [
     {
      "coin": "ZEC",
      "szi": 17.5,
      "side": "long",
      "entryPx": 1281.0589,
-     "positionValue": 21444.5,
-     "unrealizedPnl": -974.032051,
+     "positionValue": 21516.25,
+     "unrealizedPnl": -902.282051,
      "leverage": 7
     }
    ]
@@ -1547,15 +1547,15 @@
    "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
    "name": null,
    "tier": "50-100k",
-   "accountValue": 40141.09,
+   "accountValue": 39875.99,
    "positions": [
     {
      "coin": "BTC",
      "szi": -0.518,
      "side": "short",
      "entryPx": 83999.6,
-     "positionValue": 38804.416,
-     "unrealizedPnl": 4707.422215,
+     "positionValue": 38863.986,
+     "unrealizedPnl": 4647.852215,
      "leverage": 40
     },
     {
@@ -1563,8 +1563,8 @@
      "szi": -5.325,
      "side": "short",
      "entryPx": 2571.66,
-     "positionValue": 11376.33,
-     "unrealizedPnl": 2317.799291,
+     "positionValue": 11394.435,
+     "unrealizedPnl": 2299.694291,
      "leverage": 25
     },
     {
@@ -1572,8 +1572,8 @@
      "szi": -98.62,
      "side": "short",
      "entryPx": 114.62,
-     "positionValue": 8568.00698,
-     "unrealizedPnl": 2735.821887,
+     "positionValue": 8587.73098,
+     "unrealizedPnl": 2716.097887,
      "leverage": 20
     },
     {
@@ -1581,8 +1581,8 @@
      "szi": -3.5,
      "side": "short",
      "entryPx": 731.26,
-     "positionValue": 2402.75,
-     "unrealizedPnl": 156.6615,
+     "positionValue": 2405.2,
+     "unrealizedPnl": 154.2115,
      "leverage": 10
     },
     {
@@ -1590,8 +1590,8 @@
      "szi": -2936189.0,
      "side": "short",
      "entryPx": 0.005076,
-     "positionValue": 14771.966859,
-     "unrealizedPnl": 132.150273,
+     "positionValue": 14801.328749,
+     "unrealizedPnl": 102.788383,
      "leverage": 10
     },
     {
@@ -1599,8 +1599,8 @@
      "szi": -4000.0,
      "side": "short",
      "entryPx": 0.37696,
-     "positionValue": 1026.72,
-     "unrealizedPnl": 481.122938,
+     "positionValue": 1027.56,
+     "unrealizedPnl": 480.282938,
      "leverage": 10
     },
     {
@@ -1608,8 +1608,8 @@
      "szi": -183.2,
      "side": "short",
      "entryPx": 12.92845,
-     "positionValue": 1914.9896,
-     "unrealizedPnl": 453.503751,
+     "positionValue": 1919.8444,
+     "unrealizedPnl": 448.648951,
      "leverage": 10
     },
     {
@@ -1617,8 +1617,8 @@
      "szi": -4400.0,
      "side": "short",
      "entryPx": 1.393505,
-     "positionValue": 4906.44,
-     "unrealizedPnl": 1224.98332,
+     "positionValue": 4917.44,
+     "unrealizedPnl": 1213.98332,
      "leverage": 20
     },
     {
@@ -1626,8 +1626,8 @@
      "szi": -34.9,
      "side": "short",
      "entryPx": 157.0624,
-     "positionValue": 4428.81,
-     "unrealizedPnl": 1052.668472,
+     "positionValue": 4441.025,
+     "unrealizedPnl": 1040.453472,
      "leverage": 10
     },
     {
@@ -1635,8 +1635,8 @@
      "szi": -187.3,
      "side": "short",
      "entryPx": 0.54279,
-     "positionValue": 58.752264,
-     "unrealizedPnl": 42.912964,
+     "positionValue": 58.922707,
+     "unrealizedPnl": 42.742521,
      "leverage": 10
     },
     {
@@ -1644,8 +1644,8 @@
      "szi": 150.0,
      "side": "long",
      "entryPx": 6.98234,
-     "positionValue": 1026.408,
-     "unrealizedPnl": -20.94391,
+     "positionValue": 1029.36,
+     "unrealizedPnl": -17.99191,
      "leverage": 10
     },
     {
@@ -1653,8 +1653,8 @@
      "szi": -2380.0,
      "side": "short",
      "entryPx": 0.62229,
-     "positionValue": 987.7,
-     "unrealizedPnl": 493.35193,
+     "positionValue": 989.009,
+     "unrealizedPnl": 492.04293,
      "leverage": 5
     },
     {
@@ -1662,8 +1662,8 @@
      "szi": 400.0,
      "side": "long",
      "entryPx": 1.923759,
-     "positionValue": 626.44,
-     "unrealizedPnl": -143.063928,
+     "positionValue": 627.8,
+     "unrealizedPnl": -141.703928,
      "leverage": 5
     },
     {
@@ -1671,8 +1671,8 @@
      "szi": -1830.0,
      "side": "short",
      "entryPx": 5.26864,
-     "positionValue": 6588.183,
-     "unrealizedPnl": 3053.43671,
+     "positionValue": 6606.483,
+     "unrealizedPnl": 3035.13671,
      "leverage": 10
     },
     {
@@ -1680,8 +1680,8 @@
      "szi": 3500.0,
      "side": "long",
      "entryPx": 0.378929,
-     "positionValue": 1234.415,
-     "unrealizedPnl": -91.839428,
+     "positionValue": 1236.613,
+     "unrealizedPnl": -89.641428,
      "leverage": 10
     },
     {
@@ -1689,8 +1689,8 @@
      "szi": 15000.0,
      "side": "long",
      "entryPx": 0.012,
-     "positionValue": 158.55,
-     "unrealizedPnl": -21.45,
+     "positionValue": 158.85,
+     "unrealizedPnl": -21.15,
      "leverage": 5
     },
     {
@@ -1698,8 +1698,8 @@
      "szi": -8.0,
      "side": "short",
      "entryPx": 308.281,
-     "positionValue": 1743.44,
-     "unrealizedPnl": 722.814998,
+     "positionValue": 1747.2,
+     "unrealizedPnl": 719.054998,
      "leverage": 5
     },
     {
@@ -1707,8 +1707,8 @@
      "szi": 15300.0,
      "side": "long",
      "entryPx": 0.170087,
-     "positionValue": 2292.705,
-     "unrealizedPnl": -309.63976,
+     "positionValue": 2299.59,
+     "unrealizedPnl": -302.75476,
      "leverage": 10
     },
     {
@@ -1716,8 +1716,8 @@
      "szi": -2074.4,
      "side": "short",
      "entryPx": 0.70877,
-     "positionValue": 991.87436,
-     "unrealizedPnl": 478.410422,
+     "positionValue": 994.322152,
+     "unrealizedPnl": 475.96263,
      "leverage": 3
     },
     {
@@ -1725,8 +1725,8 @@
      "szi": -5859.0,
      "side": "short",
      "entryPx": 0.127591,
-     "positionValue": 547.822359,
-     "unrealizedPnl": 199.73481,
+     "positionValue": 548.337951,
+     "unrealizedPnl": 199.219218,
      "leverage": 3
     },
     {
@@ -1734,8 +1734,8 @@
      "szi": -217.06,
      "side": "short",
      "entryPx": 93.3297,
-     "positionValue": 16191.80776,
-     "unrealizedPnl": 4066.34397,
+     "positionValue": 16239.77802,
+     "unrealizedPnl": 4018.37371,
      "leverage": 10
     },
     {
@@ -1743,8 +1743,8 @@
      "szi": -142.0,
      "side": "short",
      "entryPx": 25.1827,
-     "positionValue": 2866.838,
-     "unrealizedPnl": 709.118063,
+     "positionValue": 2873.938,
+     "unrealizedPnl": 702.018063,
      "leverage": 3
     },
     {
@@ -1752,8 +1752,8 @@
      "szi": -472.0,
      "side": "short",
      "entryPx": 0.2408,
-     "positionValue": 49.4184,
-     "unrealizedPnl": 64.243111,
+     "positionValue": 49.52696,
+     "unrealizedPnl": 64.134551,
      "leverage": 5
     },
     {
@@ -1761,8 +1761,8 @@
      "szi": 5000.0,
      "side": "long",
      "entryPx": 0.157352,
-     "positionValue": 676.8,
-     "unrealizedPnl": -109.96,
+     "positionValue": 677.25,
+     "unrealizedPnl": -109.51,
      "leverage": 3
     },
     {
@@ -1770,8 +1770,8 @@
      "szi": -25000.0,
      "side": "short",
      "entryPx": 0.004688,
-     "positionValue": 88.65,
-     "unrealizedPnl": 28.569999,
+     "positionValue": 89.1,
+     "unrealizedPnl": 28.119999,
      "leverage": 10
     },
     {
@@ -1779,8 +1779,8 @@
      "szi": 47500.0,
      "side": "long",
      "entryPx": 0.062788,
-     "positionValue": 2426.965,
-     "unrealizedPnl": -555.509761,
+     "positionValue": 2432.2375,
+     "unrealizedPnl": -550.237261,
      "leverage": 10
     },
     {
@@ -1788,8 +1788,8 @@
      "szi": 18000.0,
      "side": "long",
      "entryPx": 0.068774,
-     "positionValue": 1121.922,
-     "unrealizedPnl": -116.012069,
+     "positionValue": 1123.452,
+     "unrealizedPnl": -114.482069,
      "leverage": 3
     },
     {
@@ -1797,8 +1797,8 @@
      "szi": -10.23,
      "side": "short",
      "entryPx": 1312.3429,
-     "positionValue": 12535.842,
-     "unrealizedPnl": 889.426865,
+     "positionValue": 12577.785,
+     "unrealizedPnl": 847.483865,
      "leverage": 10
     },
     {
@@ -1806,8 +1806,8 @@
      "szi": 150.0,
      "side": "long",
      "entryPx": 0.58333,
-     "positionValue": 86.88,
-     "unrealizedPnl": -0.6195,
+     "positionValue": 86.9655,
+     "unrealizedPnl": -0.534,
      "leverage": 3
     },
     {
@@ -1815,8 +1815,8 @@
      "szi": 246.0,
      "side": "long",
      "entryPx": 2.697525,
-     "positionValue": 749.562,
-     "unrealizedPnl": 85.970744,
+     "positionValue": 751.1364,
+     "unrealizedPnl": 87.545144,
      "leverage": 5
     },
     {
@@ -1824,8 +1824,8 @@
      "szi": -12.0,
      "side": "short",
      "entryPx": 614.182,
-     "positionValue": 7195.92,
-     "unrealizedPnl": 174.26664,
+     "positionValue": 7202.64,
+     "unrealizedPnl": 167.54664,
      "leverage": 5
     },
     {
@@ -1833,8 +1833,8 @@
      "szi": 3430.0,
      "side": "long",
      "entryPx": 0.104876,
-     "positionValue": 248.5378,
-     "unrealizedPnl": -111.1894,
+     "positionValue": 249.74173,
+     "unrealizedPnl": -109.98547,
      "leverage": 3
     }
    ]
@@ -1843,15 +1843,15 @@
    "address": "0x16aa234e82d7b51b8757110cbeeac6a65351785c",
    "name": null,
    "tier": "5-10k",
-   "accountValue": 8595.19,
+   "accountValue": 8594.66,
    "positions": [
     {
      "coin": "kPEPE",
      "szi": -597015.0,
      "side": "short",
      "entryPx": 0.005024,
-     "positionValue": 3003.582465,
-     "unrealizedPnl": -4.179105,
+     "positionValue": 3009.552615,
+     "unrealizedPnl": -10.149255,
      "leverage": 10
     },
     {
@@ -1859,8 +1859,8 @@
      "szi": -1817081.0,
      "side": "short",
      "entryPx": 0.00165,
-     "positionValue": 3018.171541,
-     "unrealizedPnl": -19.987891,
+     "positionValue": 3016.35446,
+     "unrealizedPnl": -18.17081,
      "leverage": 3
     },
     {
@@ -1868,8 +1868,8 @@
      "szi": -95382.0,
      "side": "short",
      "entryPx": 0.031484,
-     "positionValue": 3032.19378,
-     "unrealizedPnl": -29.103195,
+     "positionValue": 3028.569264,
+     "unrealizedPnl": -25.478679,
      "leverage": 3
     }
    ]
@@ -2539,7 +2539,7 @@
  ],
  "status": {
   "running": true,
-  "cycles": 71,
+  "cycles": 73,
   "errors": 0,
   "lastError": null
  }

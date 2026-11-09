@@ -1,6 +1,6 @@
 {
  "mode": "paper",
- "equity": 9996.9096672897,
+ "equity": 9997.090416767533,
  "cash": 9999.689681531652,
  "realizedPnl": 0.0,
  "positions": {
@@ -9,14 +9,14 @@
    "side": "long",
    "qty": 2.2018694356027213,
    "entryPx": 74.3005,
-   "markPx": 74.6835,
+   "markPx": 74.909,
    "notional": 163.6,
    "openedAt": 1794182479541,
    "conviction": 81.8,
    "holders": 4,
    "alignment": 0.75,
-   "upnl": 0.8433159938358324,
-   "ret": 0.005154743238605333,
+   "upnl": 1.3398375515642702,
+   "ret": 0.008189716085356175,
    "reason": "4 traders \u00b7 75% aligned \u00b7 conv 81.8"
   },
   "ETH": {
@@ -24,14 +24,14 @@
    "side": "short",
    "qty": 0.06420137170331613,
    "entryPx": 2121.45,
-   "markPx": 2137.75,
+   "markPx": 2140.15,
    "notional": 136.2,
    "openedAt": 1794182479541,
    "conviction": 68.1,
    "holders": 3,
    "alignment": 0.6666666666666666,
-   "upnl": -1.0464823587640646,
-   "ret": -0.007683424073157597,
+   "upnl": -1.2005656508520293,
+   "ret": -0.00881472577718083,
    "reason": "3 traders \u00b7 67% aligned \u00b7 conv 68.1"
   },
   "RSR": {
@@ -39,14 +39,14 @@
    "side": "short",
    "qty": 73607.74818401936,
    "entryPx": 0.001652,
-   "markPx": 0.001662,
+   "markPx": 0.001657,
    "notional": 121.6,
    "openedAt": 1794182479541,
    "conviction": 60.8,
    "holders": 2,
    "alignment": 1.0,
-   "upnl": -0.7360774818401956,
-   "ret": -0.006053268765133187,
+   "upnl": -0.3680387409200978,
+   "ret": -0.0030266343825665937,
    "reason": "2 traders \u00b7 100% aligned \u00b7 conv 60.8"
   },
   "MERL": {
@@ -54,14 +54,14 @@
    "side": "short",
    "qty": 3872.734800471352,
    "entryPx": 0.031399,
-   "markPx": 0.031799,
+   "markPx": 0.031868,
    "notional": 121.6,
    "openedAt": 1794182479541,
    "conviction": 60.8,
    "holders": 2,
    "alignment": 1.0,
-   "upnl": -1.5490939201885314,
-   "ret": -0.01273925921207674,
+   "upnl": -1.8163126214210532,
+   "ret": -0.014936781426159979,
    "reason": "2 traders \u00b7 100% aligned \u00b7 conv 60.8"
   },
   "kPEPE": {
@@ -69,14 +69,14 @@
    "side": "short",
    "qty": 29167.64749950153,
    "entryPx": 0.005026,
-   "markPx": 0.005036,
+   "markPx": 0.005045,
    "notional": 146.5965963324947,
    "openedAt": 1794183183571,
    "conviction": 73.3,
    "holders": 3,
    "alignment": 1.0,
-   "upnl": -0.29167647499500343,
-   "ret": -0.0019896538002386775,
+   "upnl": -0.5541853024905268,
+   "ret": -0.003780342220453625,
    "reason": "3 traders \u00b7 100% aligned \u00b7 conv 73.3"
   }
  },
@@ -658,16 +658,32 @@
   {
    "ts": 1794183785152,
    "equity": 9996.91
+  },
+  {
+   "ts": 1794183795175,
+   "equity": 9997.06
+  },
+  {
+   "ts": 1794183805183,
+   "equity": 9997.43
+  },
+  {
+   "ts": 1794183815165,
+   "equity": 9996.77
+  },
+  {
+   "ts": 1794183825267,
+   "equity": 9997.09
   }
  ],
  "cooldowns": {},
  "startedAt": 1794182479279,
- "updatedAt": 1794183785152,
- "unrealizedPnl": -2.78,
+ "updatedAt": 1794183825267,
+ "unrealizedPnl": -2.6,
  "openNotional": 689.6,
  "status": {
   "running": true,
-  "cycles": 107,
+  "cycles": 111,
   "errors": 0,
   "lastError": null
  }

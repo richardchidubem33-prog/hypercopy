@@ -20,7 +20,7 @@ LIVE = os.path.join(DATA, "live.json")
 EVENTS = os.path.join(DATA, "feed_events.json")
 CONFIG = os.path.join(BASE, "config.json")
 
-POLL_SECONDS = 15
+POLL_SECONDS = int(os.environ.get("FEED_POLL_SECONDS", "15"))
 MAX_EVENTS = 400
 MAX_LOG = 5000
 

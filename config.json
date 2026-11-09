@@ -1,0 +1,18 @@
+{
+ "mode": "paper",
+ "startingEquity": 10000.0,
+ "riskPerTradePct": 2.0,
+ "maxLeverage": 3.0,
+ "maxPositions": 5,
+ "maxExposurePct": 300.0,
+ "minHolders": 2,
+ "minAlignment": 0.66,
+ "minConviction": 60.0,
+ "stopLossPct": 6.0,
+ "takeProfitPct": 14.0,
+ "maxHoldMinutes": 720,
+ "cooldownMinutes": 20,
+ "allowCoins": [],
+ "blockCoins": [],
+ "slippage": 0.01
+}

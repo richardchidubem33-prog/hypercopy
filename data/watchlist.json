@@ -1,0 +1,82 @@
+{
+ "wallets": [
+  {
+   "address": "0xa6e153bc3e014a6c9824b02e02feec29ace46278",
+   "tier": "0-5k",
+   "name": null
+  },
+  {
+   "address": "0x38c3b41f082ae748b3e7dba9b62f3c9c56eddb5c",
+   "tier": "0-5k",
+   "name": null
+  },
+  {
+   "address": "0x1ca9476e40e09514bdcda340b0c02ed66ea40951",
+   "tier": "0-5k",
+   "name": null
+  },
+  {
+   "address": "0x0cdf0ab9ead733ecf321d09432b5208adae2902f",
+   "tier": "5-10k",
+   "name": null
+  },
+  {
+   "address": "0x4ecf18b838e9af3451c3e0f6b45becbe95a9794d",
+   "tier": "5-10k",
+   "name": null
+  },
+  {
+   "address": "0xd246c4a039508379cd70ce624cdb7c8b1c991f37",
+   "tier": "10-30k",
+   "name": null
+  },
+  {
+   "address": "0x820e36d85d524c55e2d838b9128bfa885bc5fe2e",
+   "tier": "10-30k",
+   "name": null
+  },
+  {
+   "address": "0xf61a6df7066dc9fb71612c3a4b67a595b7bdd622",
+   "tier": "10-30k",
+   "name": null
+  },
+  {
+   "address": "0xccf595171e2e56655fb4d386b7424da16be69d42",
+   "tier": "30-50k",
+   "name": null
+  },
+  {
+   "address": "0x97d2767db42135e1e2a5fd7dd3e11646ef4d2b28",
+   "tier": "30-50k",
+   "name": null
+  },
+  {
+   "address": "0xb4afc3217269e3c06908e3f30eb019a28f6e444e",
+   "tier": "30-50k",
+   "name": null
+  },
+  {
+   "address": "0x91219d5fc4540bce994036217ade77945da5d6f6",
+   "tier": "50-100k",
+   "name": null
+  },
+  {
+   "address": "0x3c1fd5a166e47f9d8b001f09fd95776b0bf6c0f7",
+   "tier": "50-100k",
+   "name": null
+  },
+  {
+   "address": "0xa3f9bb20d0837cbdf102c76ea2454b2484b1ba8e",
+   "tier": "50-100k",
+   "name": null
+  },
+  {
+   "address": "0x16aa234e82d7b51b8757110cbeeac6a65351785c",
+   "tier": "5-10k",
+   "name": null,
+   "winRate": 0.9366963402571711,
+   "qualified": null
+  }
+ ],
+ "updatedAt": 1794182774082
+}

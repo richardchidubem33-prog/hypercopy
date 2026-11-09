@@ -1,0 +1,248 @@
+{
+ "mode": "paper",
+ "equity": 10000.654197589767,
+ "cash": 9999.755650000001,
+ "realizedPnl": 0.0,
+ "positions": {
+  "HYPE": {
+   "coin": "HYPE",
+   "side": "long",
+   "qty": 2.2018694356027213,
+   "entryPx": 74.3005,
+   "markPx": 74.2705,
+   "notional": 163.6,
+   "openedAt": 1794182479541,
+   "conviction": 81.8,
+   "holders": 4,
+   "alignment": 0.75,
+   "upnl": -0.06605608306808414,
+   "ret": -0.0004037657889247197,
+   "reason": "4 traders \u00b7 75% aligned \u00b7 conv 81.8"
+  },
+  "ETH": {
+   "coin": "ETH",
+   "side": "short",
+   "qty": 0.06420137170331613,
+   "entryPx": 2121.45,
+   "markPx": 2118.55,
+   "notional": 136.2,
+   "openedAt": 1794182479541,
+   "conviction": 68.1,
+   "holders": 3,
+   "alignment": 0.6666666666666666,
+   "upnl": 0.18618397793959343,
+   "ret": 0.0013669895590278519,
+   "reason": "3 traders \u00b7 67% aligned \u00b7 conv 68.1"
+  },
+  "RSR": {
+   "coin": "RSR",
+   "side": "short",
+   "qty": 73607.74818401936,
+   "entryPx": 0.001652,
+   "markPx": 0.001652,
+   "notional": 121.6,
+   "openedAt": 1794182479541,
+   "conviction": 60.8,
+   "holders": 2,
+   "alignment": 1.0,
+   "upnl": -0.0,
+   "ret": -0.0,
+   "reason": "2 traders \u00b7 100% aligned \u00b7 conv 60.8"
+  },
+  "MERL": {
+   "coin": "MERL",
+   "side": "short",
+   "qty": 3872.734800471352,
+   "entryPx": 0.031399,
+   "markPx": 0.031198,
+   "notional": 121.6,
+   "openedAt": 1794182479541,
+   "conviction": 60.8,
+   "holders": 2,
+   "alignment": 1.0,
+   "upnl": 0.7784196948947544,
+   "ret": 0.006401477754068704,
+   "reason": "2 traders \u00b7 100% aligned \u00b7 conv 60.8"
+  }
+ },
+ "orders": [
+  {
+   "ts": 1794182479541,
+   "action": "OPEN",
+   "coin": "MERL",
+   "side": "SHORT",
+   "qty": 3872.7348,
+   "px": 0.031399,
+   "notional": 121.6,
+   "mode": "paper",
+   "why": "2 traders \u00b7 100% aligned \u00b7 conv 60.8"
+  },
+  {
+   "ts": 1794182479541,
+   "action": "OPEN",
+   "coin": "RSR",
+   "side": "SHORT",
+   "qty": 73607.748184,
+   "px": 0.001652,
+   "notional": 121.6,
+   "mode": "paper",
+   "why": "2 traders \u00b7 100% aligned \u00b7 conv 60.8"
+  },
+  {
+   "ts": 1794182479541,
+   "action": "OPEN",
+   "coin": "ETH",
+   "side": "SHORT",
+   "qty": 0.064201,
+   "px": 2121.45,
+   "notional": 136.2,
+   "mode": "paper",
+   "why": "3 traders \u00b7 67% aligned \u00b7 conv 68.1"
+  },
+  {
+   "ts": 1794182479541,
+   "action": "OPEN",
+   "coin": "HYPE",
+   "side": "LONG",
+   "qty": 2.201869,
+   "px": 74.3005,
+   "notional": 163.6,
+   "mode": "paper",
+   "why": "4 traders \u00b7 75% aligned \u00b7 conv 81.8"
+  }
+ ],
+ "closed": [],
+ "equityCurve": [
+  {
+   "ts": 1794182479279,
+   "equity": 10000.0
+  },
+  {
+   "ts": 1794182479541,
+   "equity": 9999.76
+  },
+  {
+   "ts": 1794182489445,
+   "equity": 9999.5
+  },
+  {
+   "ts": 1794182499455,
+   "equity": 9999.49
+  },
+  {
+   "ts": 1794182509476,
+   "equity": 9999.68
+  },
+  {
+   "ts": 1794182519449,
+   "equity": 9999.71
+  },
+  {
+   "ts": 1794182569716,
+   "equity": 9999.86
+  },
+  {
+   "ts": 1794182579666,
+   "equity": 9999.96
+  },
+  {
+   "ts": 1794182589596,
+   "equity": 9999.85
+  },
+  {
+   "ts": 1794182599724,
+   "equity": 9999.86
+  },
+  {
+   "ts": 1794182609602,
+   "equity": 9999.68
+  },
+  {
+   "ts": 1794182619780,
+   "equity": 10000.34
+  },
+  {
+   "ts": 1794182629622,
+   "equity": 10000.2
+  },
+  {
+   "ts": 1794182639711,
+   "equity": 10000.05
+  },
+  {
+   "ts": 1794182649601,
+   "equity": 10000.2
+  },
+  {
+   "ts": 1794182659729,
+   "equity": 10000.21
+  },
+  {
+   "ts": 1794182669723,
+   "equity": 10000.49
+  },
+  {
+   "ts": 1794182679690,
+   "equity": 10000.6
+  },
+  {
+   "ts": 1794182689620,
+   "equity": 10000.29
+  },
+  {
+   "ts": 1794182691588,
+   "equity": 10000.27
+  },
+  {
+   "ts": 1794182701590,
+   "equity": 10000.44
+  },
+  {
+   "ts": 1794182711608,
+   "equity": 10000.42
+  },
+  {
+   "ts": 1794182713669,
+   "equity": 10000.6
+  },
+  {
+   "ts": 1794182723564,
+   "equity": 10000.64
+  },
+  {
+   "ts": 1794182733669,
+   "equity": 10000.55
+  },
+  {
+   "ts": 1794182743696,
+   "equity": 10000.42
+  },
+  {
+   "ts": 1794182753556,
+   "equity": 10000.4
+  },
+  {
+   "ts": 1794182763613,
+   "equity": 10000.47
+  },
+  {
+   "ts": 1794182773571,
+   "equity": 10000.57
+  },
+  {
+   "ts": 1794182783574,
+   "equity": 10000.65
+  }
+ ],
+ "cooldowns": {},
+ "startedAt": 1794182479279,
+ "updatedAt": 1794182783574,
+ "unrealizedPnl": 0.9,
+ "openNotional": 543.0,
+ "status": {
+  "running": true,
+  "cycles": 7,
+  "errors": 0,
+  "lastError": null
+ }
+}

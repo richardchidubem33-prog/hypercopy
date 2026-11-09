@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>HyperCopy — Copy-Trade Signal Aggregator</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2316e0a3'/><text x='50' y='68' font-size='56' text-anchor='middle' fill='%23041012' font-family='sans-serif' font-weight='bold'>◈</text></svg>"/>
+<meta name="description" content="Track the best Hyperliquid traders by balance tier and turn their live positions into conviction-weighted copy-trade signals."/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"/>
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <div class="logo">◈</div>
+    <div>
+      <h1>HyperCopy</h1>
+      <div class="sub">Copy-trade signal aggregator · Hyperliquid</div>
+    </div>
+  </div>
+  <div class="topstats">
+    <div class="tstat"><span class="k">Wallets scanned</span><span class="v" id="stat-scanned">—</span></div>
+    <div class="tstat"><span class="k">Enriched</span><span class="v" id="stat-enriched">—</span></div>
+    <div class="tstat"><span class="k">Qualified ≥70%</span><span class="v up" id="stat-qualified">—</span></div>
+    <div class="tstat"><span class="k">Signal cohort</span><span class="v" id="stat-cohort">—</span></div>
+  </div>
+  <div class="live"><span class="dot"></span><span id="live-time">loading…</span></div>
+  <button class="btn primary" id="refresh-btn" title="Rebuild snapshot from live Hyperliquid data">
+    <span>↻</span> Refresh data
+  </button>
+</header>
+
+<main class="wrap">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <h2>Find the best traders. Copy their conviction.</h2>
+      <p>We scan every wallet on the Hyperliquid leaderboard, segment them by account size, rank the top performers over 30D / 90D / 1Y, and only keep traders who respect strict risk rules. Their live open positions become conviction-weighted copy signals.</p>
+      <div class="gates">
+        <div class="gate"><span class="ic g">✓</span>Win rate <b>≥ 70%</b></div>
+        <div class="gate"><span class="ic b">↯</span>Max trade <b>≤ 5×</b> account</div>
+        <div class="gate"><span class="ic a">◎</span>Active positions only</div>
+      </div>
+    </div>
+    <div class="hero-side" id="funnel"></div>
+  </section>
+
+  <!-- LIVE FEED -->
+  <section class="section">
+    <div class="sec-head">
+      <div>
+        <h2>Live Feed <span class="feeddot" id="feed-dot"></span></h2>
+        <div class="desc">The bot polls every tracked wallet's on-chain positions and streams real trade events — opens, adds, reductions and closes — as they happen.</div>
+      </div>
+      <div class="spacer"></div>
+      <div class="feedmeta" id="feed-meta"></div>
+    </div>
+    <div class="panel feedpanel">
+      <div class="feedlist" id="feedlist"></div>
+    </div>
+  </section>
+
+  <!-- SIGNALS -->
+  <section class="section">
+    <div class="sec-head">
+      <div>
+        <h2>Consensus Signals</h2>
+        <div class="desc">When several top traders open the same side of a market, a setup is forming. Conviction blends alignment, how many traders agree, and how much capital they've deployed.</div>
+      </div>
+      <div class="spacer"></div>
+      <div class="tabs" id="sig-filter">
+        <button class="tab active" data-f="consensus">Consensus <span class="cnt" id="cnt-consensus"></span></button>
+        <button class="tab" data-f="all">All assets <span class="cnt" id="cnt-all"></span></button>
+      </div>
+    </div>
+    <div class="signals" id="signals"></div>
+  </section>
+
+  <!-- LEADERBOARD -->
+  <section class="section">
+    <div class="sec-head">
+      <div>
+        <h2>Tier Leaderboard</h2>
+        <div class="desc">Best performers inside each balance tier. Rows marked <b style="color:var(--green)">Qualified</b> clear both the 70% win-rate and 5× sizing gates.</div>
+      </div>
+      <div class="spacer"></div>
+      <div class="toolbar" style="margin:0">
+        <div class="tabs" id="tier-tabs"></div>
+        <div class="tabs" id="window-tabs"></div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="lb-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th class="l">Trader</th>
+              <th>Account</th>
+              <th>ROI</th>
+              <th>PnL</th>
+              <th>Volume</th>
+              <th>Win rate</th>
+              <th>Max trade</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="lb-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRACKED -->
+  <section class="section">
+    <div class="sec-head">
+      <div>
+        <h2>Tracked Copy Set</h2>
+        <div class="desc">Top 3 qualifying wallets in the selected tier &amp; window. These are the wallets whose trades we mirror. Toggle copy to follow.</div>
+      </div>
+    </div>
+    <div class="tracked" id="tracked"></div>
+  </section>
+
+  <!-- COPY ENGINE -->
+  <section class="section">
+    <div class="sec-head">
+      <div>
+        <h2>Copy Engine <span class="mode-badge" id="mode-badge">PAPER</span></h2>
+        <div class="desc">Runs continuously: reads the live consensus feed, sizes positions by conviction, and opens/closes trades with stops, targets and signal-flip exits.</div>
+      </div>
+      <div class="spacer"></div>
+      <div class="enginestats" id="engine-stats"></div>
+    </div>
+
+    <div class="engine-grid">
+      <div class="panel eng-main">
+        <div class="eng-head">
+          <span class="eng-title">Equity curve</span>
+          <span class="eng-eq" id="eng-equity">—</span>
+        </div>
+        <div class="spark" id="spark"></div>
+        <div class="eng-sub" id="eng-sub"></div>
+      </div>
+      <div class="panel eng-side">
+        <div class="eng-head"><span class="eng-title">Open positions</span><span class="chip" id="eng-poscount">0</span></div>
+        <div id="eng-positions"></div>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top:14px">
+      <div class="eng-head"><span class="eng-title">Order log</span>
+        <span class="eng-actions">
+          <button class="btn" id="btn-reset" title="Reset paper account">Reset paper</button>
+        </span>
+      </div>
+      <div class="lb-scroll">
+        <table class="ordertable">
+          <thead><tr><th class="l">Time</th><th class="l">Action</th><th class="l">Market</th><th>Qty</th><th>Price</th><th>Notional</th><th>PnL</th><th class="l">Reason</th></tr></thead>
+          <tbody id="orderbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="foot">
+    <div class="how">
+      <div class="step"><div class="n">01 · SCAN</div><h5>Whole leaderboard</h5><p>Pull every wallet on the Hyperliquid leaderboard and bucket it into balance tiers.</p></div>
+      <div class="step"><div class="n">02 · RANK</div><h5>Multi-window performance</h5><p>Rank each tier over 30D, 90D and 1Y using realized PnL and ROI.</p></div>
+      <div class="step"><div class="n">03 · FILTER</div><h5>Risk gates</h5><p>Enrich candidates with real trade fills and positions, then keep ≥70% win rate and ≤5× sizing.</p></div>
+      <div class="step"><div class="n">04 · SIGNAL</div><h5>Consensus engine</h5><p>Aggregate live positions across the active cohort into conviction-weighted long/short signals.</p></div>
+    </div>
+    <p style="margin-top:18px">
+      <b>Data source:</b> Hyperliquid public API (leaderboard, clearinghouse state, user fills). Snapshot is a point-in-time read of live positions.
+      Signals are informational and <b>not financial advice</b>. Crypto perpetuals are high-risk; copy-trading can lose more than you expect. Always size positions yourself.
+    </p>
+  </footer>
+</main>
+
+<!-- MODAL -->
+<div class="overlay" id="overlay">
+  <div class="modal">
+    <div class="modal-h" id="modal-h"></div>
+    <div class="modal-b" id="modal-b"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
